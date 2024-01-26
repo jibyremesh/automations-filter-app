@@ -114,3 +114,9 @@ html {
 .chevron-right {
   color: #894dcb;
 }
+
+.scroll-items {
+  overflow-x: hidden;
+  white-space: nowrap;
+  transition: scroll-left 0.3s ease;
+}
