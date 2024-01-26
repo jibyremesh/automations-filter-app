@@ -57,7 +57,7 @@ const ScrollableContainer = ({ children }) => {
     <div className='scroll-container'>
       {showLeftArrow && <span className='circle' onClick={handleScrollLeft} >
         <FontAwesomeIcon className='chevron-left fa-sm' icon={faChevronLeft} /></span>}
-      <div style={{ overflowX: 'hidden', whiteSpace: 'nowrap' }} ref={containerRef}>
+      <div className='scroll-items' ref={containerRef}>
         {children}
       </div>
       {showRightArrow && <span className='circle' onClick={handleScrollRight} >

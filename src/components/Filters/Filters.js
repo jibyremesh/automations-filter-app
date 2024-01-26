@@ -74,8 +74,8 @@ const Filters = ({ onFilterChange, automationData }) => {
       filteredData = filteredData.filter(item =>
         item.categories &&
         item.categories.length > 0 &&
-        item.categories.every(category =>
-          filters.category === category.title
+        item.categories.some(category =>
+          category.title === filters.category
         )
       );
     }
