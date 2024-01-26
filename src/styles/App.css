@@ -30,16 +30,26 @@ html {
 
 }
 
+.circle{
+  width: 30px;
+}
 
 @media (max-width: 768px) {
   .item {
     flex-basis: 45%;
   }
+
 }
 
 @media (max-width: 480px) {
   .item {
     flex-basis: 100%;
+  }
+  .circle {
+    width: 40px;
+  }
+  body{
+    margin: 10px;
   }
 }
 
@@ -105,7 +115,6 @@ html {
 .circle {
   border-radius: 50%;
   border: 1px solid #cccccc;
-  width: 30px;
   height: 25px;
   text-align: center;
 }
