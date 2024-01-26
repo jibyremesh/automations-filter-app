@@ -1,0 +1,116 @@
+html {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 2%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 15px;
+}
+
+.item {
+  flex: 1 1 30%;
+
+
+  box-sizing: border-box;
+}
+
+.justify-content {
+  justify-content: space-between;
+
+}
+
+
+@media (max-width: 768px) {
+  .item {
+    flex-basis: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    flex-basis: 100%;
+  }
+}
+
+.text-grey {
+  color: #7c7c7c;
+}
+
+.text-purple {
+  color: #894dcb
+}
+
+.text-bold {
+  font-weight: 700
+}
+
+.text-light {
+  font-weight: 200
+}
+
+.text-normal {
+  font-weight: 400
+}
+
+.link {
+  cursor: pointer;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.selected {
+  color: #894dcb !important;
+  border: 1px solid #894dcb !important;
+}
+
+.scroll-container {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  width: 30px;
+  height: 25px;
+  text-align: center;
+}
+
+.chevron-left,
+.chevron-right {
+  color: #894dcb;
+}

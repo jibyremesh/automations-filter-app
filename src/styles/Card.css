@@ -1,0 +1,50 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  flex-direction: column;
+  display: flex;
+  width: 200px;
+  height: 210px;
+}
+
+.logo-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: max-content;
+  padding: 10px 10px 4px;
+  margin-bottom: 5px;
+
+}
+
+.card img {
+  width: 25px;
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.company-name {
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 1 0 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
+}
