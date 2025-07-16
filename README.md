@@ -1,9 +1,12 @@
-# frontend-dev-assignment
-Develop automation section on a page using React components
+# 🧠 Automations Filter App
+A responsive React application that allows users to filter a list of automation tools using dynamic chips for various criteria. Designed with accessibility, performance, and user experience in mind.
 
 ## About
-
 This project is a React.js app to create a dashboard of automations
+
+## 🚀 Live Demo
+
+https://jibyremesh.github.io/automations-filter-app/
 
 ## Getting Started
 
