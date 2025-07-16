@@ -1,8 +1,27 @@
 # 🧠 Automations Filter App
 A responsive React application that allows users to filter a list of automation tools using dynamic chips for various criteria. Designed with accessibility, performance, and user experience in mind.
 
-## About
-This project is a React.js app to create a dashboard of automations
+## 📦 Features
+
+🔍 Dynamic Filtering – Filter by data extraction, monitoring, site (multi-select), and category (single-select)
+
+📱 Responsive Design – Works seamlessly on all screen sizes
+
+♿ Accessibility First – Fully accessible UI using semantic HTML
+
+🔄 Scroll Navigation – Arrow buttons appear when filters overflow their container
+
+✅ Unit & Automation Tests – Included and ready to run
+
+## 🛠️ Tech Stack
+- Framework: React
+- CSS3 – Custom styles for layout and responsiveness
+- Font Awesome – Icons for search, social media, etc.
+- Testing: React Testing Library
+- Build Tool: Webpack
+
+## 📁 Data
+The app uses static JSON data to populate the list of automations. This simulates API data while maintaining full filtering functionality.
 
 ## 🚀 Live Demo
 
